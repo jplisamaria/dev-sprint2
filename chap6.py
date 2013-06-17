@@ -51,8 +51,44 @@ else:
 	print "Error: This is not a word."
 
 
+
+
+
+
+
 # ******************
 # ** Exercise 6.8 **
 # ******************
-# Palindrome: Function definitions
-# --------------------------------
+# Greatest Common Divisor
+# -------------------------------------------------
+import math
+
+def GCD (a,b):
+	"""Takes 2 inputs, and returns their GCD"""
+	#determine which integer is more massive, and call the integer with the  
+	#larger absolute value 'n' for numerator and other one 'd' for denominator
+	if math.fabs(a)>=math.fabs(b):
+		n = a 
+		d = b
+	else:
+		n = b
+		d = a
+	## Base case if one of the integers is 0
+	if d == 0:
+		return n	
+	## General case	
+	R = n % d
+	if R == 0:
+		return int(math.fabs(d))
+	else:
+		return GCD (d,R)
+
+print
+print "Enter two integers to find GCD"
+print "First integer:",
+a = raw_input()
+print "Second integer:",
+b = raw_input()
+
+print "GCD for", int(a) , "and", int(b) , "is:",
+print GCD (int(a),int(b))
