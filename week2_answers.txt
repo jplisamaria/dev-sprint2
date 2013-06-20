@@ -1,2 +1,8 @@
 # Please put answers for the week2 stand alone questions here
-# Name:
+# Name: Lisa-Maria Mehta
+
+# 3 Ideas for Simple Apps
+# -----------------------
+	1.	Simple app that executes a line of Python, using 'exec' instead of 'eval'.
+	2.	Video player
+	3.	Nickname generator a la Pale Kids (characters from Disney's Recess).  The Pale Kids call each other nicknames by spelling their names backwards.  eg. Frank becomes Knarf, and TJ becomes JT.

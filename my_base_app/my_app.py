@@ -11,7 +11,7 @@ app.secret_key = "bacon"
 
 users = {'jplisamaria' : 'tofu'}
 
-class Main (flask.views.MethodView) :
+class Main (flask.views.MethodView):
 	def get(self):
 		return flask.render_template('index.html')
 
