@@ -6,19 +6,41 @@
 # -----------------------
 	1.	Python Line "Executor"
 		----------------------  
-		Simple app that executes one line of Python, using 'exec' instead of 'eval'.
+		Simple app that executes one line of Python,
+		using 'exec' instead of 'eval'.
 
 	2.	Video Player
 		------------
-		Similar to music player, but using video files instead of sounds files.
+		Similar to music player, but using video files
+		instead of sounds files.
 
 	3.	Pale Kids Nickname Generator
 		----------------------------
-		The Pale Kids (characters from Disney's Recess) call each other nicknames by spelling their names backwards, eg. Frank becomes Knarf, and TJ becomes JT. App asks user for string. Uses python to reverse the order of the letters, and fix capitalization.  I need to learn a bit about string manipulation using Python to get this right.
+		The Pale Kids (characters from Disney's Recess)
+		call each other nicknames by spelling their 
+		names backwards, eg. Frank becomes Knarf, and
+		TJ becomes JT. App asks user for string. Uses
+		python to reverse the order of the letters,
+		and fix capitalization.  I need to learn a bit
+		about string manipulation using Python to get
+		this right.
 
 # --------------------------------
 # One Moderately More Complex Idea
 # --------------------------------
-		Cien Libros: Hernandez 100 Book Summer Project App
-		--------------------------------------------------
-		My kids' school, the Rafael Hernandez, asks that the students read 100 books/chapters over the summer.  The students are handed sheets to record their reading, as well as a poster of an empty gumball machine.  Each time they read a book/chapter, they put a sticker (ie a gumball) on their gumball machine.  I'd like to build an app that does this online and keeps the individuals reading information.  Later--when I get more skill, obviously--I'd like to add a searchable database that links the records, so kids can see what their friends are reading, and who else is reading what they are reading.
+		Cien Libros: Hernandez 100 Book Summer Project 
+		-----------------------------------------------
+		My kids' school, the Rafael Hernandez, asks
+		that the students read 100 books/chapters over
+		the summer.  The students are handed sheets to
+		record their reading, as well as a poster of
+		an empty gumball machine.  Each time they read
+		a book/chapter, they put a sticker (ie a
+		gumball) on their gumball machine.  I'd like
+		to build an app that does this online and
+		keeps the individuals reading information.
+		Later--when I get more skill, obviously--I'd
+		like to add a searchable database that links
+		the records, so kids can see what their 
+		friends are reading, and who else is reading
+		what they are reading.
